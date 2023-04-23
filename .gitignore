@@ -1,0 +1,8 @@
+# Nix
+.direnv
+
+# VSCode
+.vscode/settings.json
+
+# Output
+*.pdf

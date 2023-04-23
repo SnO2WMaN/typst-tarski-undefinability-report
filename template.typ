@@ -7,7 +7,7 @@
   set page(numbering: "1", number-align: center)
   // set text(font: "Source Sans Pro", lang: "ja")
   set heading(numbering: "1.1")
-  set text(font: "Noto Serif", lang: "ja")
+  set text(font: "Source Han Serif", lang: "ja")
 
   // Title row.
   align(center)[

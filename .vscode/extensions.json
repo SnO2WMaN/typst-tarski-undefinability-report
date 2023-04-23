@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "jnoortheen.nix-ide",
+    "mkhl.direnv",
+    "nvarner.typst-lsp",
+    "tomoki1207.pdf"
+  ]
+}
