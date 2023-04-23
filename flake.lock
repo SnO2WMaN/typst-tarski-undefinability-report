@@ -87,15 +87,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1682072867,
-        "narHash": "sha256-7acYWMWe+Rhlg3JVtbyVC3jKk6Qfka9z8SnLjQrNyIE=",
+        "lastModified": 1681245265,
+        "narHash": "sha256-3vNJmLmbskAzXVXjiSVDLhRcX1j3ksOgPd53W31YZ0c=",
         "owner": "typst",
         "repo": "typst",
-        "rev": "2fbb14f712708188649181525813b3ac5a02e0fb",
+        "rev": "fe2640c55268f167d8749f77b37e52b7b17f21dd",
         "type": "github"
       },
       "original": {
         "owner": "typst",
+        "ref": "v0.2.0",
         "repo": "typst",
         "type": "github"
       }

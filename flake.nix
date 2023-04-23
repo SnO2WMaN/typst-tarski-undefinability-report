@@ -10,7 +10,7 @@
       url = "github:numtide/flake-utils";
     };
     typst = {
-      url = "github:typst/typst";
+      url = "github:typst/typst/v0.2.0";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
