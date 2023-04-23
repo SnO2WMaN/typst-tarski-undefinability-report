@@ -40,7 +40,7 @@
           ];
 
           buildPhase = ''
-            typst compile ./main.typ
+            typst --font-path ${pkgs.source-han-serif} compile ./main.typ
           '';
           installPhase = ''
             mkdir $out
