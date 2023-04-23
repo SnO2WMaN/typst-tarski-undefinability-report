@@ -1,5 +1,6 @@
 # Nix
 .direnv
+result
 
 # VSCode
 .vscode/settings.json

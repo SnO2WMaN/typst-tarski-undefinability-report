@@ -30,6 +30,23 @@
           ];
         };
       in {
+        packages.default = pkgs.stdenvNoCC.mkDerivation {
+          name = "document";
+          src = ./.;
+          buildInputs = with pkgs; [
+            typst
+            source-han-serif
+            fontconfig
+          ];
+
+          buildPhase = ''
+            typst compile ./main.typ
+          '';
+          installPhase = ''
+            mkdir $out
+            cp ./main.pdf $out
+          '';
+        };
         devShells.default = pkgs.devshell.mkShell {
           packages = with pkgs; [
             alejandra
